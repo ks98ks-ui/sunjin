@@ -17,3 +17,5 @@ echo "pull 원격 리포지토리의 내용을 가져옵니다" >>myfile.txt 내
 커밋후 git checkout master 마스터로 이동
 git merge issue2 이슈2를 마스터로 합침 그후 git merge issue3 합치면 오류발생
 파일을 열어 직접 수정 한 후 git add . 후 git commit -m 커밋추가후 로그 확인 :탈출 q
+rebase로 정리하는법 git reset --hard HEAD~ 한단계전으로 리셋 git checkout issue3
+git rebase master 후 직접수정후 저장, esc :q 엔터로 탈출
