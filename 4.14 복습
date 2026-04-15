@@ -1,0 +1,29 @@
+이펙트추가
+
+public GameObject effect;
+Instantiate(effect, other.transform.position, Quaternion.identity);
+
+사운드
+배경음
+음악을 드래그해서 드롭
+loop 체크
+
+이펙트음
+
+ public AudioSource audio;
+ public AudioClip clipDie;
+ audio.PlayOneShot(clipDie);
+
+ 씬 이동
+ 씬등록
+ build profiles > scene > scenes list에 씬 순서대로 투입
+ 
+  public void Change()
+ {
+     SceneManager.LoadScene(1);
+ }
+ 스크립추가
+
+ 버튼이벤트onclick에 위 씬 이동함수 링크 scene change change 등록
+
+ 4.15 애니메이션 추가예정
