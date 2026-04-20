@@ -7,3 +7,4 @@ Attenuation 찾아서 att_sound 삽입
 
 c++  tool > new c++ class > 부모선택 > public 생성 = 새로운 컴포넌트
 삭제방법: 디버그 중지 후 private, public 에있는 cpp, h 삭제 후 파일탐색기에서도 마찬가지로 삭제 후 전체빌드 shift+ctrl+b, 디버그 실행후 삭제된거 확인
+unreal 접두사 A = Actor / U = Object / F = 일반구조체 / T = 템플릿 / E = 열거형
