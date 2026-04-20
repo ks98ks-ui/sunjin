@@ -1,0 +1,6 @@
+blue print > sound play 2d 배경음삽입
+위치에 따른 소리설정 play sound at location/ Attenuation settings <위치에 따른 소리감소
+Sound 폴더에 Sound Attenuation 생성
+Content 에 Blueprint 폴더생성 안에 Bp_ATTTest 블루프린트 생성후 
+컴포넌트에 Audio와 SkeletalMesh 생성, 스켈레톤엔 넣고싶은 캐릭터넣고 Audio에 원하는 노래 삽입후 
+Attenuation 찾아서 att_sound 삽입
