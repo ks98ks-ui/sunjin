@@ -10,3 +10,6 @@ Pawn Character 의 차이
 Pawn = 플레이어나  Unreal AI의 제어를 받을수 있는 기능 Unreal AI = 몬스터나 NPC
 콘텐츠 생성형 AI를 사용할 때는 보통 API를 호출해서 활용 / API >> 서버를 매개하므로 딜레이 발생 >> 어떻게 AI를 사용하면서 딜레이를 최소화 시킬것인가가 중요
 Character = 복잡한 지상이동과 상호작용이 가능한 기능
+Pawn의 자손 클래스, Pawn 기능을 상속받아 추가기능을 구현하고 기본적으로 UCharacterMovementComponent 가 있음
+UCharacterMovementComponent 란 이동, 회전, 점프, 중력, 길찾기 등의 보행형 캐릭터에게 필요한 기능이 구현되어있는 컴포넌트
+Character 를 구현할 때 최적화 되어있으며, 자동차나 비행기, 물고기 등등 인간형이 아닌 오브젝트를 구현하는 경우엔 불리하므로 pawn이 낫다.
