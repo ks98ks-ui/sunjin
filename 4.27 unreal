@@ -1,1 +1,4 @@
 Tools > new c++ class 저장후 다시 로드 F5로 실행 > 생성되어있으면 정상
+Game State Class >> 규칙
+Player Controller class >> 컨트롤러
+Player State Class >> 플레이어 정보
